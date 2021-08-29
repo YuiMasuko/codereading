@@ -40,6 +40,7 @@ class AssignsController < ApplicationController
       end
     else
     I18n.t('views.messages.cannot_delete_not_admin')
+    end
   end
 
   def email_exist?
